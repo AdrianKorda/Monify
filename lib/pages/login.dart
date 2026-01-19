@@ -62,8 +62,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
       final prefs = await SharedPreferences.getInstance();
       await prefs.setBool('remember_me', _rememberMe);
-      
-      debugPrint('✅ Remember Me beállítva: $_rememberMe');
 
       Navigator.pushReplacement(
         context,

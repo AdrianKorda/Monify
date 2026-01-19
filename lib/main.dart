@@ -14,7 +14,7 @@ import 'core/currency/currency_service.dart';
 import 'core/localization/language_service.dart';
 import 'core/localization/app_strings.dart';
 import 'core/localization/language.dart';
-import 'pages/FirstRunScreen.dart';
+import 'pages/first_run_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
